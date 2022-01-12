@@ -5,7 +5,8 @@ buildscript {
     if (project == rootProject) {
         repositories {
             google()
-            jcenter()
+            // jcenter()
+            mavenCentral()
         }
         
         dependencies {
